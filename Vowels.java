@@ -1,5 +1,4 @@
-package krithika.task2;
-
+package krithika.task3;
 
 
 
@@ -7,7 +6,7 @@ package krithika.task2;
 import java.io.*;
 
 import java.util.*;
-public class Vowels {
+public class Vowel {
 
 public void readFile(String infName, String opfName) { 
 	char[] vowels = {'a', 'e', 'i', 'o', 'u'};
@@ -41,8 +40,12 @@ try {
 	}
 }
 
+
+
+
 public static void main(String[] args) { 
-	Vowels v= new Vowels();
+	Vowel v= new Vowel();
 	v.readFile("C:\\Users\\krithika\\Desktop\\sampleInput.txt", "C:\\Users\\krithika\\Desktop\\sampleOutput.txt");
+
 }
 }
